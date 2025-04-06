@@ -1,67 +1,27 @@
-/* Add a subtle box shadow to the container */
+/* Basic reset and styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and background styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f9f9f9;
+    color: #333;
+    overflow: hidden;
+}
+
+/* Centering the content */
 .container {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    border-radius: 10px;
-    background-color: white;
-}
-
-/* Button active state */
-button:active {
-    background-color: #3e8e41; /* Darker green */
-    transform: translateY(2px);
-}
-
-/* Button focus state for accessibility */
-button:focus {
-    outline: none;
-    box-shadow: 0 0 0 3px rgba(66, 133, 244, 0.5); /* Blue outline */
-}
-
-/* Add transition effect to the button */
-button {
-    transition: background-color 0.3s ease, transform 0.1s ease;
-}
-
-/* Add a smooth transition to the container */
-.container {
-    transition: transform 0.3s ease;
-}
-
-/* Change body background color on hover */
-body:hover {
-    background-color: #e0e0e0;
-}
-
-/* Add a subtle animation for the container */
-@keyframes fadeIn {
-    0% {
-        opacity: 0;
-        transform: translateY(20px);
-    }
-    100% {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
-.container {
-    animation: fadeIn 0.5s ease-out;
-}
-
-/* Add spacing between elements inside the container */
-.container * {
-    margin-bottom: 20px;
-}
-
-/* Media query for mobile responsiveness */
-@media (max-width: 768px) {
-    .container {
-        padding: 15px;
-    }
-
-    button {
-        padding: 12px 28px;
-        font-size: 14px;
-    }
+    text-align: center;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4
 }
