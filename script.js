@@ -14,4 +14,4 @@ function changeBackgroundColor() {
 
 // Add event listener to the button to trigger the changeBackgroundColor function
 colorButton.addEventListener('click', changeBackgroundColor);
-console.log("fnfaowdsnf")
+console.log("NOw the above changes are done because to update the changes to check the git config");
